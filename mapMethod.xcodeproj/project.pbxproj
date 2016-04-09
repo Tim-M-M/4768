@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		395AB1A71CA96B7F0074354C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 395AB1A61CA96B7F0074354C /* main.m */; };
+		395AB1AA1CA96B7F0074354C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 395AB1A91CA96B7F0074354C /* AppDelegate.m */; };
+		395AB1AD1CA96B7F0074354C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395AB1AC1CA96B7F0074354C /* ViewController.m */; };
+		395AB1B01CA96B7F0074354C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1AE1CA96B7F0074354C /* Main.storyboard */; };
+		395AB1B21CA96B7F0074354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1B11CA96B7F0074354C /* Assets.xcassets */; };
+		395AB1B51CA96B7F0074354C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1B31CA96B7F0074354C /* LaunchScreen.storyboard */; };
+		3962A3361CB171CC00858C1F /* UIPeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3962A3351CB171CC00858C1F /* UIPeerViewController.m */; };
+		39BD8F881CB09AB500A5277E /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD8F871CB09AB500A5277E /* MapAnnotation.m */; };
+		39BD8F8B1CB09AC000A5277E /* CollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD8F8A1CB09AC000A5277E /* CollectionItem.m */; };
+		39BD8F8E1CB09ACC00A5277E /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD8F8D1CB09ACC00A5277E /* Creature.m */; };
+		39F453AF1CB8300A00A70435 /* PersistanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F453AE1CB8300A00A70435 /* PersistanceManager.m */; };
+		F888C4691CB06B7000E61441 /* Worm.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C45A1CB06B7000E61441 /* Worm.atlas */; };
+		F888C46A1CB06B7000E61441 /* img in Resources */ = {isa = PBXBuildFile; fileRef = F888C45B1CB06B7000E61441 /* img */; };
+		F888C46B1CB06B7000E61441 /* Gumdrop.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C45C1CB06B7000E61441 /* Gumdrop.atlas */; };
+		F888C46C1CB06B7000E61441 /* CrazedRed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C45D1CB06B7000E61441 /* CrazedRed.atlas */; };
+		F888C46D1CB06B7000E61441 /* Gumball.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C45E1CB06B7000E61441 /* Gumball.atlas */; };
+		F888C46E1CB06B7000E61441 /* beep-11.wav in Resources */ = {isa = PBXBuildFile; fileRef = F888C45F1CB06B7000E61441 /* beep-11.wav */; };
+		F888C46F1CB06B7000E61441 /* Beep-SoundBible.com-923660219.wav in Resources */ = {isa = PBXBuildFile; fileRef = F888C4601CB06B7000E61441 /* Beep-SoundBible.com-923660219.wav */; };
+		F888C4701CB06B7000E61441 /* Smug.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4611CB06B7000E61441 /* Smug.atlas */; };
+		F888C4711CB06B7000E61441 /* Pink.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4621CB06B7000E61441 /* Pink.atlas */; };
+		F888C4721CB06B7000E61441 /* Whitey.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4641CB06B7000E61441 /* Whitey.atlas */; };
+		F888C4731CB06B7000E61441 /* MonsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F888C4651CB06B7000E61441 /* MonsterViewController.m */; };
+		F888C4741CB06B7000E61441 /* Crybaby.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4661CB06B7000E61441 /* Crybaby.atlas */; };
+		F888C4751CB06B7000E61441 /* MonsterAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F888C4671CB06B7000E61441 /* MonsterAnimate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		395AB1A21CA96B7F0074354C /* mapMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		395AB1A61CA96B7F0074354C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		395AB1A81CA96B7F0074354C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		395AB1A91CA96B7F0074354C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		395AB1AB1CA96B7F0074354C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		395AB1AC1CA96B7F0074354C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		395AB1AF1CA96B7F0074354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		395AB1B11CA96B7F0074354C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		395AB1B41CA96B7F0074354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		395AB1B61CA96B7F0074354C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3962A3341CB171CC00858C1F /* UIPeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPeerViewController.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/UIPeerViewController.h"; sourceTree = "<group>"; };
+		3962A3351CB171CC00858C1F /* UIPeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPeerViewController.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/UIPeerViewController.m"; sourceTree = "<group>"; };
+		39BD8F861CB09AB500A5277E /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotation.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/MapAnnotation.h"; sourceTree = "<group>"; };
+		39BD8F871CB09AB500A5277E /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapAnnotation.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/MapAnnotation.m"; sourceTree = "<group>"; };
+		39BD8F891CB09AC000A5277E /* CollectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionItem.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/CollectionItem.h"; sourceTree = "<group>"; };
+		39BD8F8A1CB09AC000A5277E /* CollectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionItem.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/CollectionItem.m"; sourceTree = "<group>"; };
+		39BD8F8C1CB09ACC00A5277E /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/Creature.h"; sourceTree = "<group>"; };
+		39BD8F8D1CB09ACC00A5277E /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Creature.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/Creature.m"; sourceTree = "<group>"; };
+		39F453AD1CB8300A00A70435 /* PersistanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersistanceManager.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/PersistanceManager.h"; sourceTree = "<group>"; };
+		39F453AE1CB8300A00A70435 /* PersistanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistanceManager.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/PersistanceManager.m"; sourceTree = "<group>"; };
+		F888C45A1CB06B7000E61441 /* Worm.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Worm.atlas; sourceTree = "<group>"; };
+		F888C45B1CB06B7000E61441 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		F888C45C1CB06B7000E61441 /* Gumdrop.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Gumdrop.atlas; sourceTree = "<group>"; };
+		F888C45D1CB06B7000E61441 /* CrazedRed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = CrazedRed.atlas; sourceTree = "<group>"; };
+		F888C45E1CB06B7000E61441 /* Gumball.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Gumball.atlas; sourceTree = "<group>"; };
+		F888C45F1CB06B7000E61441 /* beep-11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-11.wav"; sourceTree = "<group>"; };
+		F888C4601CB06B7000E61441 /* Beep-SoundBible.com-923660219.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Beep-SoundBible.com-923660219.wav"; sourceTree = "<group>"; };
+		F888C4611CB06B7000E61441 /* Smug.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Smug.atlas; sourceTree = "<group>"; };
+		F888C4621CB06B7000E61441 /* Pink.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Pink.atlas; sourceTree = "<group>"; };
+		F888C4631CB06B7000E61441 /* MonsterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterViewController.h; sourceTree = "<group>"; };
+		F888C4641CB06B7000E61441 /* Whitey.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Whitey.atlas; sourceTree = "<group>"; };
+		F888C4651CB06B7000E61441 /* MonsterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterViewController.m; sourceTree = "<group>"; };
+		F888C4661CB06B7000E61441 /* Crybaby.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Crybaby.atlas; sourceTree = "<group>"; };
+		F888C4671CB06B7000E61441 /* MonsterAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterAnimate.m; sourceTree = "<group>"; };
+		F888C4681CB06B7000E61441 /* MonsterAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterAnimate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		395AB19F1CA96B7E0074354C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395AB1991CA96B7E0074354C = {
+			isa = PBXGroup;
+			children = (
+				395AB1A41CA96B7F0074354C /* mapMethod */,
+				395AB1A31CA96B7F0074354C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		395AB1A31CA96B7F0074354C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				395AB1A21CA96B7F0074354C /* mapMethod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395AB1A41CA96B7F0074354C /* mapMethod */ = {
+			isa = PBXGroup;
+			children = (
+				39BD8F891CB09AC000A5277E /* CollectionItem.h */,
+				39BD8F8A1CB09AC000A5277E /* CollectionItem.m */,
+				39BD8F8C1CB09ACC00A5277E /* Creature.h */,
+				39BD8F8D1CB09ACC00A5277E /* Creature.m */,
+				39BD8F861CB09AB500A5277E /* MapAnnotation.h */,
+				39BD8F871CB09AB500A5277E /* MapAnnotation.m */,
+				F888C45A1CB06B7000E61441 /* Worm.atlas */,
+				F888C45B1CB06B7000E61441 /* img */,
+				F888C45C1CB06B7000E61441 /* Gumdrop.atlas */,
+				F888C45D1CB06B7000E61441 /* CrazedRed.atlas */,
+				F888C45E1CB06B7000E61441 /* Gumball.atlas */,
+				F888C45F1CB06B7000E61441 /* beep-11.wav */,
+				F888C4601CB06B7000E61441 /* Beep-SoundBible.com-923660219.wav */,
+				F888C4611CB06B7000E61441 /* Smug.atlas */,
+				F888C4621CB06B7000E61441 /* Pink.atlas */,
+				F888C4631CB06B7000E61441 /* MonsterViewController.h */,
+				F888C4641CB06B7000E61441 /* Whitey.atlas */,
+				F888C4651CB06B7000E61441 /* MonsterViewController.m */,
+				F888C4661CB06B7000E61441 /* Crybaby.atlas */,
+				F888C4671CB06B7000E61441 /* MonsterAnimate.m */,
+				F888C4681CB06B7000E61441 /* MonsterAnimate.h */,
+				3962A3341CB171CC00858C1F /* UIPeerViewController.h */,
+				3962A3351CB171CC00858C1F /* UIPeerViewController.m */,
+				395AB1A81CA96B7F0074354C /* AppDelegate.h */,
+				395AB1A91CA96B7F0074354C /* AppDelegate.m */,
+				395AB1AB1CA96B7F0074354C /* ViewController.h */,
+				395AB1AC1CA96B7F0074354C /* ViewController.m */,
+				395AB1AE1CA96B7F0074354C /* Main.storyboard */,
+				395AB1B11CA96B7F0074354C /* Assets.xcassets */,
+				395AB1B31CA96B7F0074354C /* LaunchScreen.storyboard */,
+				395AB1B61CA96B7F0074354C /* Info.plist */,
+				395AB1A51CA96B7F0074354C /* Supporting Files */,
+				39F453AD1CB8300A00A70435 /* PersistanceManager.h */,
+				39F453AE1CB8300A00A70435 /* PersistanceManager.m */,
+			);
+			path = mapMethod;
+			sourceTree = "<group>";
+		};
+		395AB1A51CA96B7F0074354C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				395AB1A61CA96B7F0074354C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		395AB1A11CA96B7E0074354C /* mapMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395AB1B91CA96B7F0074354C /* Build configuration list for PBXNativeTarget "mapMethod" */;
+			buildPhases = (
+				395AB19E1CA96B7E0074354C /* Sources */,
+				395AB19F1CA96B7E0074354C /* Frameworks */,
+				395AB1A01CA96B7E0074354C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapMethod;
+			productName = mapMethod;
+			productReference = 395AB1A21CA96B7F0074354C /* mapMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		395AB19A1CA96B7E0074354C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1000,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tim Mathews";
+				TargetAttributes = {
+					395AB1A11CA96B7E0074354C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8LT36C5R7L;
+					};
+				};
+			};
+			buildConfigurationList = 395AB19D1CA96B7E0074354C /* Build configuration list for PBXProject "mapMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 395AB1991CA96B7E0074354C;
+			productRefGroup = 395AB1A31CA96B7F0074354C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				395AB1A11CA96B7E0074354C /* mapMethod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		395AB1A01CA96B7E0074354C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F888C4721CB06B7000E61441 /* Whitey.atlas in Resources */,
+				F888C46A1CB06B7000E61441 /* img in Resources */,
+				F888C46C1CB06B7000E61441 /* CrazedRed.atlas in Resources */,
+				395AB1B51CA96B7F0074354C /* LaunchScreen.storyboard in Resources */,
+				F888C4701CB06B7000E61441 /* Smug.atlas in Resources */,
+				F888C46B1CB06B7000E61441 /* Gumdrop.atlas in Resources */,
+				F888C46E1CB06B7000E61441 /* beep-11.wav in Resources */,
+				F888C46D1CB06B7000E61441 /* Gumball.atlas in Resources */,
+				F888C4741CB06B7000E61441 /* Crybaby.atlas in Resources */,
+				F888C4711CB06B7000E61441 /* Pink.atlas in Resources */,
+				395AB1B21CA96B7F0074354C /* Assets.xcassets in Resources */,
+				F888C46F1CB06B7000E61441 /* Beep-SoundBible.com-923660219.wav in Resources */,
+				F888C4691CB06B7000E61441 /* Worm.atlas in Resources */,
+				395AB1B01CA96B7F0074354C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		395AB19E1CA96B7E0074354C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395AB1AD1CA96B7F0074354C /* ViewController.m in Sources */,
+				39BD8F8B1CB09AC000A5277E /* CollectionItem.m in Sources */,
+				39BD8F8E1CB09ACC00A5277E /* Creature.m in Sources */,
+				39BD8F881CB09AB500A5277E /* MapAnnotation.m in Sources */,
+				3962A3361CB171CC00858C1F /* UIPeerViewController.m in Sources */,
+				39F453AF1CB8300A00A70435 /* PersistanceManager.m in Sources */,
+				F888C4751CB06B7000E61441 /* MonsterAnimate.m in Sources */,
+				395AB1AA1CA96B7F0074354C /* AppDelegate.m in Sources */,
+				395AB1A71CA96B7F0074354C /* main.m in Sources */,
+				F888C4731CB06B7000E61441 /* MonsterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		395AB1AE1CA96B7F0074354C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395AB1AF1CA96B7F0074354C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		395AB1B31CA96B7F0074354C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395AB1B41CA96B7F0074354C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		395AB1B71CA96B7F0074354C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		395AB1B81CA96B7F0074354C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		395AB1BA1CA96B7F0074354C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = mapMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tmm205.mapMethod000000000000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		395AB1BB1CA96B7F0074354C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = mapMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tmm205.mapMethod000000000000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		395AB19D1CA96B7E0074354C /* Build configuration list for PBXProject "mapMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395AB1B71CA96B7F0074354C /* Debug */,
+				395AB1B81CA96B7F0074354C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395AB1B91CA96B7F0074354C /* Build configuration list for PBXNativeTarget "mapMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395AB1BA1CA96B7F0074354C /* Debug */,
+				395AB1BB1CA96B7F0074354C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 395AB19A1CA96B7E0074354C /* Project object */;
+}
