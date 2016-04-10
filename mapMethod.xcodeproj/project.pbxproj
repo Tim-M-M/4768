@@ -13,6 +13,8 @@
 		395AB1B01CA96B7F0074354C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1AE1CA96B7F0074354C /* Main.storyboard */; };
 		395AB1B21CA96B7F0074354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1B11CA96B7F0074354C /* Assets.xcassets */; };
 		395AB1B51CA96B7F0074354C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395AB1B31CA96B7F0074354C /* LaunchScreen.storyboard */; };
+		3961DE7B1CB9C7D500AEF5BA /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961DE7A1CB9C7D500AEF5BA /* CollectionViewController.m */; };
+		3961DE881CB9E5BB00AEF5BA /* ConfirmationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3961DE871CB9E5BB00AEF5BA /* ConfirmationVC.m */; };
 		3962A3361CB171CC00858C1F /* UIPeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3962A3351CB171CC00858C1F /* UIPeerViewController.m */; };
 		39BD8F881CB09AB500A5277E /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD8F871CB09AB500A5277E /* MapAnnotation.m */; };
 		39BD8F8B1CB09AC000A5277E /* CollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BD8F8A1CB09AC000A5277E /* CollectionItem.m */; };
@@ -44,6 +46,10 @@
 		395AB1B11CA96B7F0074354C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395AB1B41CA96B7F0074354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		395AB1B61CA96B7F0074354C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3961DE791CB9C7D500AEF5BA /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/CollectionViewController.h"; sourceTree = "<group>"; };
+		3961DE7A1CB9C7D500AEF5BA /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/CollectionViewController.m"; sourceTree = "<group>"; };
+		3961DE861CB9E5BB00AEF5BA /* ConfirmationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmationVC.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/ConfirmationVC.h"; sourceTree = "<group>"; };
+		3961DE871CB9E5BB00AEF5BA /* ConfirmationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmationVC.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/ConfirmationVC.m"; sourceTree = "<group>"; };
 		3962A3341CB171CC00858C1F /* UIPeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPeerViewController.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/UIPeerViewController.h"; sourceTree = "<group>"; };
 		3962A3351CB171CC00858C1F /* UIPeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPeerViewController.m; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/UIPeerViewController.m"; sourceTree = "<group>"; };
 		39BD8F861CB09AB500A5277E /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotation.h; path = "../../../../../../../Users/labnet3/st6/tmm205/Desktop/mapMethod-2/mapMethod/MapAnnotation.h"; sourceTree = "<group>"; };
@@ -135,6 +141,10 @@
 				395AB1A51CA96B7F0074354C /* Supporting Files */,
 				39F453AD1CB8300A00A70435 /* PersistanceManager.h */,
 				39F453AE1CB8300A00A70435 /* PersistanceManager.m */,
+				3961DE791CB9C7D500AEF5BA /* CollectionViewController.h */,
+				3961DE7A1CB9C7D500AEF5BA /* CollectionViewController.m */,
+				3961DE861CB9E5BB00AEF5BA /* ConfirmationVC.h */,
+				3961DE871CB9E5BB00AEF5BA /* ConfirmationVC.m */,
 			);
 			path = mapMethod;
 			sourceTree = "<group>";
@@ -237,10 +247,12 @@
 				39BD8F8E1CB09ACC00A5277E /* Creature.m in Sources */,
 				39BD8F881CB09AB500A5277E /* MapAnnotation.m in Sources */,
 				3962A3361CB171CC00858C1F /* UIPeerViewController.m in Sources */,
+				3961DE881CB9E5BB00AEF5BA /* ConfirmationVC.m in Sources */,
 				39F453AF1CB8300A00A70435 /* PersistanceManager.m in Sources */,
 				F888C4751CB06B7000E61441 /* MonsterAnimate.m in Sources */,
 				395AB1AA1CA96B7F0074354C /* AppDelegate.m in Sources */,
 				395AB1A71CA96B7F0074354C /* main.m in Sources */,
+				3961DE7B1CB9C7D500AEF5BA /* CollectionViewController.m in Sources */,
 				F888C4731CB06B7000E61441 /* MonsterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
